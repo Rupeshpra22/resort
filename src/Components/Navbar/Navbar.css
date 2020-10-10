@@ -1,0 +1,35 @@
+nav{
+    height: 10vh;
+    background-color: #ffd97b;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px black;
+    justify-content: space-evenly;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 400;
+    text-shadow:  0px 1px #731616
+}
+
+ul{
+    display: flex;
+    width: 60%;
+}
+
+li{    
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color:#222;
+    font-weight: bold;
+}
+
+li a.active{
+    color:#d0221e
+}
