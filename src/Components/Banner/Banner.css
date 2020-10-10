@@ -1,0 +1,23 @@
+.banner{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    padding: 2rem 1rem;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    box-shadow: 1px 1px 3px 3px #676767;
+    border-radius: 4px;
+    min-width: 20%;
+}
+
+.banner div{
+    width: 10rem;
+    height: 5px;
+    background: #af9a7d;
+    margin: 1.7rem auto;
+}
+
+.banner p{
+    letter-spacing: 2px;
+}

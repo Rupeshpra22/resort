@@ -6,7 +6,7 @@ class Navbar extends Component {
         return (
             <nav>
                 <div className="logo">
-                    Beach Resort
+                    BEACH RESORT
                </div>
                 <ul>
                     <li><NavLink to="/" exact>Home</NavLink></li>

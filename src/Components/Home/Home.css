@@ -1,0 +1,14 @@
+.btn-primary{
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
+    padding: 8px;
+    text-transform: capitalize;
+    background-color: #ffd97b;
+    box-shadow: 1px 2px 2px 1px #000000;
+    border-radius: 4px;
+}
+
+.btn-primary:hover{
+    color:black
+}
