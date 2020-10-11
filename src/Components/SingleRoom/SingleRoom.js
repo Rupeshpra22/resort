@@ -48,7 +48,7 @@ class SingleRoom extends Component {
                         <article className="single-room-text">
                             <h3>Info</h3>
                             <h4>Price: ${price}</h4>
-                            <h4>Size: ${size} SQFT</h4>
+                            <h4>Size: {size} SQFT</h4>
                             <h4>Max Capacity: {capacity > 1 ? `${capacity} people` : `${capacity} person`}</h4>
                             <h4>Pets: {pets ? 'Pets Allowed' : 'No Pets Allowed'}</h4>
                             <h4>Breakfast: {breakfast && 'Free Breakfast Included'}</h4>
