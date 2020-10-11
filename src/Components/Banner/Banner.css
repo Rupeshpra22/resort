@@ -8,7 +8,7 @@
     text-align: center;
     box-shadow: 1px 1px 3px 3px #676767;
     border-radius: 4px;
-    min-width: 20%;
+    min-width: 35%;
 }
 
 .banner div{
@@ -20,4 +20,8 @@
 
 .banner p{
     letter-spacing: 2px;
+}
+
+.banner h1{
+    font-size: 3rem;
 }

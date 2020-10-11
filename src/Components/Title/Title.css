@@ -1,0 +1,17 @@
+.section-title{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.section-title h4{
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section-title div{
+    width: 5rem;
+    height: 5px;
+    background: #af9a7d;
+    margin: 0 auto;
+}

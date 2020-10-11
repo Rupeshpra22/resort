@@ -1,11 +1,13 @@
 import React from 'react'
 import Banner from '../Banner/Banner'
 import Hero from '../Hero/Hero'
+import Services from '../Services/Services'
 import { Link } from 'react-router-dom'
 import './Home.css'
+import FeaturedRooms from '../FeaturedRooms/FeaturedRooms'
 const Home = () => {
     return (
-        <div>
+        <>
             <Hero>
                 <Banner
                     title="luxurious rooms"
@@ -14,9 +16,10 @@ const Home = () => {
                         Our Rooms
                  </Link>
                 </Banner>
-
             </Hero>
-        </div>
+            <Services/>
+            <FeaturedRooms/>
+        </>
     )
 }
 
