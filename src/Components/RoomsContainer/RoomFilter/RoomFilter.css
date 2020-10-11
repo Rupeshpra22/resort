@@ -1,0 +1,52 @@
+.filter-container{
+    padding: 1rem 0rem;
+}
+
+.form-group {
+    text-transform: capitalize;
+    font-weight: 500;
+    min-width: 23%;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+}
+
+  .filter-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .size-inputs {
+    display: flex;
+    justify-content: center;
+}
+
+  .size-input {
+    width: 18%;
+    padding: 0.2rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+  }
+  
+@media screen and (max-width:650px){
+    .filter-form{
+        flex-direction: column;
+    }
+
+    .form-group{
+        min-width: 30%;
+    }
+}

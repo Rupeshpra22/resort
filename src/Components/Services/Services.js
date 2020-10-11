@@ -14,7 +14,7 @@ class Services extends Component {
             {
                 icon: <FaHiking />,
                 title: "Free Hiking",
-                info: 'Free Hiking on all our suites'
+                info: 'Hiking, Free Free Free!'
             },
             {
                 icon: <FaShuttleVan />,

@@ -15,7 +15,7 @@ nav{
     letter-spacing: 4px;
 }
 
-ul{
+nav ul{
     display: flex;
     width: 60%;
 }

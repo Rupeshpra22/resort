@@ -1,17 +1,23 @@
 .featured-rooms{
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     background: #fff;
     text-align: center;
+
 }
 
 .featured-room-center{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width:650px){
     .featured-room-center{
         flex-direction: column;
         margin-bottom:20px
+    }
+
+    .featured-rooms{
+        padding:0
     }
 }
